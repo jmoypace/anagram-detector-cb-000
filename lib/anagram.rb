@@ -1,13 +1,13 @@
 # Your code goes here!
 class Anagram
   attr_accessor :key
-  
+
     def initialize(word)
-      @key = word 
-    end   
-  
+      @key = word
+    end
+
     def match(array)
-      array.select {|x| x.split("").sort == @name.split("").sort}
-    end   
+      array.select {|x| x.split("").sort == @key.split("").sort}
+    end
 
 end
